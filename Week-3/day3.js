@@ -40,26 +40,26 @@ console.log(first);   // "apple"
 console.log(fruits);  // ["banana", "cherry"]
 
 // 4. unshift(add from begining)
-const fruits = ["banana", "cherry"];
+const fs = ["banana", "cherry"];
 fruits.unshift("apple");
-console.log(fruits);  // ["apple", "banana", "cherry"]
+console.log(fs);  // ["apple", "banana", "cherry"]
 
 //5.indexOf
-const fruits = ["apple", "banana", "cherry"];
-console.log(fruits.indexOf("banana"));  // 1
-console.log(fruits.indexOf("grape"));   // -1 (not found)
+const frs = ["apple", "banana", "cherry"];
+console.log(frs.indexOf("banana"));  // 1
+console.log(frs.indexOf("grape"));   // -1 (not found)
 
 
 //6.slice
-const fruits = ["apple", "banana", "cherry", "date"];
-const newFruits = fruits.slice(1, 3);
+const fru = ["apple", "banana", "cherry", "date"];
+const newFruits = fru.slice(1, 3);
 console.log(newFruits);  // ["banana", "cherry"]
 
 //7.splice
-const fruits = ["apple", "banana", "cherry", "date"];
+const frui = ["apple", "banana", "cherry", "date"];
 // Remove 1 element at index 2, add "kiwi"
 fruits.splice(2, 1, "kiwi");
-console.log(fruits);  // ["apple", "banana", "kiwi", "date"]
+console.log(frui);  // ["apple", "banana", "kiwi", "date"]
 
 
 //array iteration methods
